@@ -1,0 +1,136 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: "Claritycity, Arial, sans-serif", sans-serif;
+    background: linear-gradient(to bottom, #a9a9a9, #ffffff);
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.app {
+    text-align: center;
+}
+
+.nav-link {
+    align-content: center;
+    border-width: 1px;
+    background: linear-gradient(to bottom, #007bff, #338cff);
+    border-color: #b0b0b0;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 0 10px;
+    font-size: 14px;
+    text-decoration: none;
+    height: 32px;
+    width: 140px;
+    margin-left: 15px;
+    transition: border-color .3s, background-color .3s, transform .3s, color .3s;
+}
+
+.nav-link:hover {
+    color: #d3d3d3;
+    text-decoration: none;
+}
+
+.header {
+    margin-bottom: 40px;
+}
+
+.header h1 {
+    font-size: 3em;
+    margin: 0;
+    padding-bottom: 50px;
+}
+
+.cta-button {
+    border: #FFFFFF 5px solid;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 1.5em;
+    cursor: pointer;
+    margin-top: 20px;
+    text-decoration: none;
+    transition: border-color .3s, background-color .3s, transform .3s, color .3s;
+}
+
+.cta-button:hover {
+    color: #d3d3d3;
+}
+
+.main {
+    margin-top: 100px;
+}
+
+h2 {
+    font-size: 2em;
+    padding-top: 350px;
+}
+
+.coins {
+    display: flex;
+    justify-content: space-around;
+    margin-top: auto;
+}
+
+.coin {
+    background-color: #d3d3d3;
+    padding: 30px;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin: 20px;
+}
+
+.coin img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.coin h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.coin .change {
+    font-size: 2em;
+    color: #4caf50;
+}
+
+.coin .change.negative {
+    color: #f44336;
+}
+
+.cohort {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    align-content: center;
+    border-width: 1px;
+    background: linear-gradient(to bottom, #007bff, #338cff);
+    border-color: #b0b0b0;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 0 10px;
+    font-size: 14px;
+    text-decoration: none;
+    height: 32px;
+    width: 140px;
+    margin-left: 15px;
+    transition: border-color .3s, background-color .3s, transform .3s, color .3s;
+}
+
+.deposit-fee {
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
